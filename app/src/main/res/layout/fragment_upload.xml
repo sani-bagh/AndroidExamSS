@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FragmentUpload">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_width="365dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/josefin_sans_bold"
+                android:text="Select Image"
+                android:textStyle="bold"
+                app:cornerRadius="8dp" />
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="399dp"
+            android:layout_height="406dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="6"
+            app:strokeWidth="3dp">
+
+            <ImageView
+                android:id="@+id/iv_select"
+                android:layout_width="367dp"
+                android:layout_height="395dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:layout_weight="4"
+            app:strokeWidth="3dp">
+
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="365dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/josefin_sans_bold"
+                android:text="Upload"
+                android:textStyle="bold"
+                app:cornerRadius="8dp" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidExamSS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Reverso</string>
+    <string name="start">Start</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="get_location">Get Location</string>
+    <string name="camera">Camera</string>
+    <string name="todo">TODO</string>
+    <string name="upload_image">Upload image</string>
+    <string name="reverse_search">Reverse Search</string>
+    <string name="show_saved_images">Show saved images</string>
+    <string name="x">X</string>
+</resources>

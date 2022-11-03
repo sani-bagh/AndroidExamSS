@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:paddingBottom="15dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#7C616C"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="316dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="@string/start"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="316dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="@string/camera"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="316dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="@string/get_location"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#363A43"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
